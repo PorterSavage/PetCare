@@ -1,3 +1,22 @@
-<p>
-  pet-form works!
-</p>
+<label for="ownerFirsName">First Name:</label>
+<input type="text" #ownerFirstName>
+<br>
+<label for="ownerLastName">Last Name:</label>
+<input type="text" #ownerLastName>
+<br>
+<label for="animalName">Animal Name:</label>
+<input type="text" #animalName>
+<br>
+<label for="species">Species:</label>
+<input type="text" #species>
+<br>
+<label for="gender">Gender:</label>
+<input type="text" #gender>
+<br>
+<label for="stay">Stay length (In days):</label>
+<input type="number" #stay>
+<br>
+<label for="dropOff">Drop off date:</label>
+<input type="date" #dropOff>
+<br>
+<button class="btn btn-success btn-sm" (click)="submitRequest(ownerFirstName.value, ownerLastName.value, animalName.value, species.value, gender.value, stay.value, dropOff.value); ownerFirstName.value=''; ownerLastName.value=''; animalName.value=''; species.value=''; gender.value=''; stay.value=''; dropOff.value='';">Submit</button>
