@@ -7,7 +7,12 @@
 .main-logo{
 
   color: #505050;
-  float:left;
+  float: left;
+
+}
+.logo-info-box{
+  color: #505050;
+  float: right;
 }
 
 .contact-info-search{
@@ -37,7 +42,7 @@ input{
 }
 
 h2{
-  margin: 0;
+  padding-right: 300px;
 }
 
 li{
