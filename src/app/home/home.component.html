@@ -1,10 +1,14 @@
-<div class=body-wrapper>
-  <div class="banner">
-    <div class="banner-image">
-
-    </div>
-    <div class="banner-text">
-
-    </div>
+<ul *ngIf="animals">
+  <div *ngFor="let animal of animals | async" class="animals">
+    <li>
+      <h2>{{animal.animalName}}</h2>
+    </li>
+    <h4>{{animal.gender}}</h4>
+    <h4>{{animal.species}}</h4>
+    <h4>{{animal.ownerFirstName}}</h4>
+    <h4>{{animal.ownerLastName}}</h4>
+    <h4>{{animal.dropOff}}</h4>
+    <h4>{{animal.stay}}</h4>
   </div>
-</div>
+</ul>
+
