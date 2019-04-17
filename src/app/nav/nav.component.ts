@@ -29,5 +29,8 @@ export class NavComponent {
 
   logout() {
     this.authService.logout();
+    console.log(this.userName);
+    this.userName=null;
+      console.log(this.userName);
   }
 }
