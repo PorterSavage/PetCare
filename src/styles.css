@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+   background-image: url("https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+   text-align: center;
+}

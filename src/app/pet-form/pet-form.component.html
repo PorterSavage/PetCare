@@ -1,25 +1,25 @@
 <div class="container">
   <div class="form-group">
-  <label for="ownerFirsName">First Name:</label>
+  <label for="ownerFirsName"><strong>First Name:</strong></label>
   <input class="form-control" type="text" #ownerFirstName>
   <br>
   <div class="form-group">
-  <label for="ownerLastName">Last Name:</label>
+  <label for="ownerLastName"><strong>Last Name:</strong></label>
   <input class="form-control" type="text" #ownerLastName>
   <br>
-  <label for="animalName">Animal Name:</label>
+  <label for="animalName"><strong>Animal Name:</strong></label>
   <input class="form-control" type="text" #animalName>
   <br>
-  <label for="species">Species:</label>
+  <label for="species"><strong>Species:</strong></label>
   <input class="form-control" type="text" #species>
   <br>
-  <label for="gender">Gender:</label>
+  <label for="gender"><strong>Gender:</strong></label>
   <input class="form-control" type="text" #gender>
   <br>
-  <label for="stay">Stay length (In days):</label>
+  <label for="stay"><strong>Stay length (In days):</strong></label>
   <input class="form-control" type="number" #stay>
   <br>
-  <label for="dropOff">Drop off date:</label>
+  <label for="dropOff"><strong>Drop off date:</strong></label>
   <input class="form-control" type="date" #dropOff>
   <br>
   <button class="btn btn-success btn-sm" (click)="submitRequest(ownerFirstName.value, ownerLastName.value, animalName.value, species.value, gender.value, stay.value, dropOff.value); ownerFirstName.value=''; ownerLastName.value=''; animalName.value=''; species.value=''; gender.value=''; stay.value=''; dropOff.value='';">Submit</button>
