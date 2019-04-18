@@ -1,16 +1,16 @@
 <div class="container">
-<h3>Current pets:</h3>
+<h3>Current pets:</h3><br>
 <div *ngIf="animals">
   <div *ngFor="let animal of animals | async" class="animals">
 
-    <h5>{{animal.animalName}}</h5>
+    <h4>{{animal.animalName}}</h4><hr>
     <p><strong>Gender: </strong>{{animal.gender}}</p>
     <p><strong>Species: </strong>{{animal.species}}</p>
     <p><strong>Owner's First Name: </strong>{{animal.ownerFirstName}}</p>
     <p><strong>Owner's Last Name: </strong>{{animal.ownerLastName}}</p>
     <p><strong>Date Drop Off: </strong>{{animal.dropOff}}</p>
 
-    <p><strong>Length of Stay: </strong>{{animal.stay}} days</p>
-
+    <p><strong>Length of Stay: </strong>{{animal.stay}} days</p><br>
+    
   </div>
 </div>
