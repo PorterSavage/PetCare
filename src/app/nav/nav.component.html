@@ -3,17 +3,18 @@
   <div class="logo-info-box">
     <div class="main-logo">
     </div>
+    <a id="logIn" (click)="login()">Log in </a>
+    <a id="logOut" (click)="logout()"> Log out</a>
+    <div>{{userName}}</div>
   </div>
   <nav class="navbar-wrapper">
     <ul>
       <li class="hover"><a href=''>Home</a></li>
-      <li class="hover"><a href='contact'>Contact</a></li>
+      <li class="hover"><a href='contact'>About Us</a></li>
       <li class="hover" ><a href='cart'>Cart</a></li>
       <li class="hover"><a href='blog'>Blog</a></li>
       <li class="hover"><a href='pet-form'>Book a Stay</a></li>
-      <li class="hover"><a (click)="login()">Log in</a></li>
-      <li class="hover"><a (click)="logout()">Log out</a></li>
-      <li>logged in as {{userName}}</li>
+
     </ul>
   </nav>
 </div>

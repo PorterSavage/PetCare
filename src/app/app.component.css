@@ -1,21 +1,41 @@
+body {
+  height: 100%;
+}
 
-
+#contentContainer {
+  color: white;
+  font-family: 'Segoe UI';
+  font-size: 13pt;
+  background-image: linear-gradient(to right, rgba(0, 0, 60, 0.3), rgba(0, 0, 30, 0.3));
+  border-radius: 3px;
+  -webkit-box-shadow: 1px -1px 1px #999999;
+  height: 100%;
+  padding: 30px;
+}
 
 .container{
   padding-top: 20px;
-  border: 1px solid black;
-  height: 100px;
+  height: 100%;
+}
+
+#facebook {
+  color: #463EEE;
+}
+
+#twitter {
+  color: #74C0F6;
 }
 
 .main-logo{
-
   color: #505050;
   float: left;
+  font-family: comic;
 
 }
 .logo-info-box{
   color: #505050;
   float: right;
+  border: none;
 }
 
 .contact-info-search{
@@ -32,7 +52,7 @@ ul{
 }
 
 i{
-  font-size: 25px;
+  font-size: 35px;
 }
 
 input{
@@ -44,13 +64,14 @@ input{
   height: 40px;
 }
 
-h2{
+h1{
   padding-right: 300px;
+  color: #448;
+  font-weight: bold;
 }
 
 li{
   padding-right: 10px;
-  padding-left: 10px;
   display: inline;
 }
 

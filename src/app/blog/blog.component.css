@@ -1,3 +1,23 @@
 body {
   text-align: center;
 }
+
+.blogImage {
+  margin-top: 30px;
+}
+
+.blogImage img {
+  height: 200px;
+}
+
+.blogNarrative {
+    margin-top: 40px;
+}
+
+#date {
+  color: #DDD;
+  font-weight: bold;
+  font-size: 16pt;
+  padding-left: 15px;
+  padding-top: 10px;
+}
