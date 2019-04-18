@@ -2,3 +2,7 @@ h5 {
   color: #062090;
   font-weight: bold;
 }
+
+.container {
+  text-align: left;
+}
