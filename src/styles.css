@@ -2,6 +2,6 @@
 body {
    background-image: url("https://images.pexels.com/photos/257540/pexels-photo-257540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
    text-align: center;
-   background-repeat: no-repeat;
+   background-repeat: none;
    background-size: cover;
 }
