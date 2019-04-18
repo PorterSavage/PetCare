@@ -46,7 +46,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 -Input ng serve to deploy the server to localhost, or firebase deploy to deploy to your own firebase hosting.
 
-or go to https://petcare-5dc7d.firebaseapp.com/
+or go to https://pet-care-7bd46.firebaseapp.com/
 
 ## Known Bugs
 _No known bugs_
