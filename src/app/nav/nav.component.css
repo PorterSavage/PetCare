@@ -1,27 +1,17 @@
 .navbar-wrapper{
   margin-top: 80px;
 }
-.grey{
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+
+#logIn:hover {
+  color: blue;
+  cursor: pointer;
 }
-.hover:hover:not(.activate){
-  background-color: #ddd;
+
+#logOut:hover {
+  color: blue;
+  cursor: pointer;
 }
-.ulStyle{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.moveLi{
-  width: 10%;
-  background-color: #f3f3f3;
-  float: left;
-}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -30,21 +20,22 @@ ul {
 }
 
 li {
-  width: 12%;
-  background-color: #f3f3f3;
+  width: 180px;
   float: left;
 }
 
  li a {
+  font-size: 14pt;
   display: block;
-  color: #666;
+  color: #448;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 15px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #ddd;
+  color: white;
+  background-image: linear-gradient(to right, rgba(0, 0, 60, 0.1), rgba(0, 0, 30, 0.1));
 }
 
 li a.active {
@@ -57,27 +48,27 @@ li a.active {
   float: right;
 }
 
-.navbar {
+/* .navbar {
  min-height: 80px;
-}
+} */
 
-.navbar-brand {
+/* .navbar-brand {
  padding: 0 10px;
  height: 60px;
  line-height: 60px;
-}
+} */
 
-.navbar-toggle {
+/* .navbar-toggle {
  /* (80px - button height 34px) / 2 = 23px */
- margin-top: 23px;
+ /* margin-top: 23px;
  padding: 9px 10px !important;
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
  .navbar-nav > li > a {
    /* (80px - line-height of 27px) / 2 = 26.5px */
-   padding-top: 26.5px;
+   /* padding-top: 26.5px;
    padding-bottom: 26.5px;
    line-height: 27px;
  }
-}
+}  */

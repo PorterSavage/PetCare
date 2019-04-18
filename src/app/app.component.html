@@ -1,17 +1,20 @@
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <div class="container">
   <div class="logo-info-box">
     <div class="main-logo">
-      <h2>The Best Pet Daycare</h2>
+      <h1>The Beast Pet Daycare</h1>
     </div>
     <ul>
-      <li><a href="#"><i class="fab fa-facebook lg"></i></a> </li>
-      <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+      <li><a href="#"><i id="facebook" class="fab fa-facebook lg"></i></a> </li>
+      <li><a href="#"><i id="twitter" class="fab fa-twitter-square"></i></a> </li>
       <li><a href="#"><i class="fas fa-envelope"></i></a></li>
     </ul>
   </div>
   <div class="main-nav-box">
     <app-nav></app-nav>
   </div>
-  <router-outlet></router-outlet>
+  <div id="contentContainer">
+    <router-outlet></router-outlet>
+  </div>
 </div>

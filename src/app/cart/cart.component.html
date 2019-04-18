@@ -1,3 +1,16 @@
-<p>
-  cart works!
-</p>
+<div class="container">
+<h3>Current pets:</h3>
+<div *ngIf="animals">
+  <div *ngFor="let animal of animals | async" class="animals">
+
+    <h5>{{animal.animalName}}</h5>
+    <p><strong>Gender: </strong>{{animal.gender}}</p>
+    <p><strong>Species: </strong>{{animal.species}}</p>
+    <p><strong>Owner's First Name: </strong>{{animal.ownerFirstName}}</p>
+    <p><strong>Owner's Last Name: </strong>{{animal.ownerLastName}}</p>
+    <p><strong>Date Drop Off: </strong>{{animal.dropOff}}</p>
+
+    <p><strong>Length of Stay: </strong>{{animal.stay}} days</p>
+
+  </div>
+</div>

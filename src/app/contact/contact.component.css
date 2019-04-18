@@ -1,3 +1,11 @@
 #header {
   text-align: center;
 }
+
+.container {
+  padding: 25px;
+}
+
+h3 {
+  color: #062090;
+}

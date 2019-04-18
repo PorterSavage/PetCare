@@ -1,18 +1,51 @@
 <div class="container">
-<h3>Current pets:</h3>
-<ul *ngIf="animals">
-  <div *ngFor="let animal of animals | async" class="animals">
-    <li>
-    <h5>{{animal.animalName}}</h5>
-    <p><strong>Gender: </strong>{{animal.gender}}</p>
-    <p><strong>Breed: </strong>{{animal.species}}</p>
-    <p><strong>Owner's First Name: </strong>{{animal.ownerFirstName}}</p>
-    <p><strong>Owner's Last Name: </strong>{{animal.ownerLastName}}</p>
-    <p><strong>Date Drop Off: </strong>{{animal.dropOff}}</p>
+  <div class="intro">
+    <h5>Welcome!</h5>
+    <div>
+    Welcome to The Beast Pet Daycare!  We love our...ahem...I mean your beasts, and we can't get enough of them.  At Beast Pet Daycare, your pets will be treated to days filled with fun and friends.  They'll be running around getting exercise, socializing with other pets and worn out by the time you pick them up at the end of the day. You will love the quality time in the evening with your pet as they cozy up by you for a well-earned night's slumber.
 
-    <p><strong>Length of Stay: </strong>{{animal.stay}} days</p>
-    </li>
+    From our Full Service Hospital to our Daycare Club, our plush Boutique Boarding accommodations, our Grooming salon and our Training services, we maintain the highest level of care. Our Veterinary and Daycare Club members enjoy a range of exclusive benefits. Our chauffeur service will even pick up and drop off your pets from home or work!
+
+    We love what we do and are sure you will too – so contact us today to get started!
+    </div>
   </div>
-</ul>
 
+  <div class="intro">
+    <h5>Resources</h5>
+    <h6>Dog Resources</h6>
+    <ul>
+      <li><a href="https://hikewithyourdog.com/">Hike with you dog</a></li>
+      <li><a href="http://www.dog-obedience-advice.com/">Dog Obedience Advice</a></li>
+      <li><a href="http://rawlearning.com/wp/">Feeding Raw Diets</a></li>
+    </ul>
 
+    <h6>Cat Resources</h6>
+    <ul>
+      <li><a href="http://crazyforkitties.com/">Crazy for Kitties</a></li>
+      <li><a href="https://icatcare.org/">FAB Cats (Feline Advisory Board)</a></li>
+      <li><a href="http://www.acfacat.com/">The Cat Fancier’s Association</a></li>
+    </ul>
+
+    <h6>Veterinary Services</h6>
+    <ul>
+      <li><a href="https://www.nonantumvet.com/">Nonatum Veterinary Clinic</a></li>
+      <li><a href="http://crestviewanimalclinic.vetstreet.com/">Crestview</a></li>
+      <li><a href="https://vcahospitals.com/pike-creek">Oxford Veterinary Hospital</a></li>
+    </ul>
+
+    <h6>Rescues & Adoptions</h6>
+    <ul>
+      <li><a href="http://www.companimals.org/">CompAnimals</a></li>
+      <li><a href="https://www.treetopsrescue.org/">Treetops Animal Rescue</a></li>
+      <li><a href="https://www.petfinder.com/">Pet Finder</a></li>
+    </ul>
+
+    <h6>Pet Products</h6>
+    <ul>
+      <li><a href="https://www.dogbonesdirect.com/">Dog Bones Direct</a></li>
+      <li><a href="http://www.whiskazzandpawzz.com/">Whiskazz & Pawzz</a></li>
+      <li><a href="https://www.kvsupply.com/">KV Vet Supply</a></li>
+    </ul>
+    <br>
+  </div>
+</div>
